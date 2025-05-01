@@ -851,28 +851,6 @@ const userNav = options => {
         show: false
       },
       component: 'NotificationSettings'
-    },
-    {
-      name: 'achivement',
-      parentId: 0,
-      id: 20001,
-      meta: {
-        title: '成果页',
-        icon: 'user',
-        show: true
-      },
-      redirect: '/account/center',
-      component: 'RouteView'
-    },
-    {
-      name: 'LoadForecasting',
-      parentId: 20001,
-      id: 20002,
-      meta: {
-        title: '负荷预测',
-        show: true
-      },
-      component: 'LoadForecasting'
     }
   ]
   const json = builder(nav)
