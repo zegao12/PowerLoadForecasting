@@ -480,39 +480,36 @@ const userNav = options => {
   parentId: 0,
   id: 10001,
   meta: {
-    icon: 'dashboard',
     title: '数据可视化',
     show: true
   },
-  component: 'RouteView'
+  component: 'DataVisualization'
 },
-{
-  name: 'workplace',
-  parentId: 10001,
-  id: 20001,
-  meta: {
-    title: '工作台',
-    show: true
-  },
-  component: 'Workplace'
-},
+// {
+//   name: 'workplace',
+//   parentId: 10001,
+//   id: 20001,
+//   meta: {
+//     title: '工作台',
+//     show: true
+//   },
+//   component: 'Workplace'
+// },
 {
   name: 'DataUploadSystemConfiguration',
   parentId: 0,
   id: 10002,
   meta: {
-    icon: 'dashboard',
     title: '数据上传与系统配置',
     show: true
   },
   component: 'RouteView'
 },
 {
-  name: 'DataUploadSystemConfiguration',
+  name: 'PowerLoadForecasting',
   parentId: 0,
   id: 10003,
   meta: {
-    icon: 'dashboard',
     title: '电力负荷预测',
     show: true
   },
@@ -523,7 +520,6 @@ const userNav = options => {
   parentId: 0,
   id: 10004,
   meta: {
-    icon: 'dashboard',
     title: '评估日志',
     show: true
   },
@@ -534,7 +530,6 @@ const userNav = options => {
   parentId: 0,
   id: 10005,
   meta: {
-    icon: 'dashboard',
     title: '模型升级部署',
     show: true
   },
@@ -545,13 +540,11 @@ const userNav = options => {
   parentId: 0,
   id: 10005,
   meta: {
-    icon: 'dashboard',
     title: '用户设备管理',
     show: true
   },
   component: 'RouteView'
 },
-
     {
       name: 'dashboard',
       parentId: 0,
@@ -559,10 +552,10 @@ const userNav = options => {
       meta: {
         icon: 'dashboard',
         title: '仪表盘',
-        show: true
+        show: false
       },
       component: 'RouteView',
-      redirect: '/dashboard/workplace'
+      redirect: 'DataVisualization'
     },
     {
       name: 'workplace',
