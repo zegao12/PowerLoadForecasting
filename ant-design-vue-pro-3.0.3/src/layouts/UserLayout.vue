@@ -9,8 +9,7 @@
         <div class="top">
           <div class="header">
             <a href="/">
-              <img src="~@/assets/logo.svg" class="logo" alt="logo">
-              <span class="title">Ant Design</span>
+              <span class="title">短期时空电力负荷预测系统</span>
             </a>
           </div>
           <div class="desc">
