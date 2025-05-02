@@ -20,8 +20,10 @@ const constantRouterComponents = {
 
   // form
   BasicForm: () => import('@/views/form/basicForm'),
+  DataUploadSystemConfiguration: () => import('@/views/form/dataUploadSystemConfiguration'),
   StepForm: () => import('@/views/form/stepForm/StepForm'),
   AdvanceForm: () => import('@/views/form/advancedForm/AdvancedForm'),
+  ModelUpgradeDeployment: () => import('@/views/form/modelUpgradeDeployment/ModelUpgradeDeployment'),
 
   // list
   TableList: () => import('@/views/list/TableList'),
@@ -33,6 +35,8 @@ const constantRouterComponents = {
   SearchApplications: () => import('@/views/list/search/Applications'),
   ProfileBasic: () => import('@/views/profile/basic'),
   ProfileAdvanced: () => import('@/views/profile/advanced/Advanced'),
+  EvaluationLog: () => import('@/views/list/EvaluationLog'),
+  UserDeviceManagement: () => import('@/views/list/UserDeviceManagement'),
 
   // result
   ResultSuccess: () => import(/* webpackChunkName: "result" */ '@/views/result/Success'),

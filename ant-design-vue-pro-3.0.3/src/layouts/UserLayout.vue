@@ -9,7 +9,7 @@
         <div class="top">
           <div class="header">
             <a href="/">
-              <span class="title">短期时空电力负荷预测系统</span>
+              <span class="title">基于联邦学习的短期电力负荷预测系统</span>
             </a>
           </div>
           <div class="desc">

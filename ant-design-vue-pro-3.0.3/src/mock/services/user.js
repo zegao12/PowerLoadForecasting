@@ -485,16 +485,6 @@ const userNav = options => {
   },
   component: 'DataVisualization'
 },
-// {
-//   name: 'workplace',
-//   parentId: 10001,
-//   id: 20001,
-//   meta: {
-//     title: '工作台',
-//     show: true
-//   },
-//   component: 'Workplace'
-// },
 {
   name: 'DataUploadSystemConfiguration',
   parentId: 0,
@@ -503,7 +493,7 @@ const userNav = options => {
     title: '数据上传与系统配置',
     show: true
   },
-  component: 'RouteView'
+  component: 'DataUploadSystemConfiguration'
 },
 {
   name: 'PowerLoadForecasting',
@@ -523,7 +513,7 @@ const userNav = options => {
     title: '评估日志',
     show: true
   },
-  component: 'RouteView'
+  component: 'EvaluationLog'
 },
 {
   name: 'ModelUpgradeDeployment',
@@ -533,7 +523,7 @@ const userNav = options => {
     title: '模型升级部署',
     show: true
   },
-  component: 'RouteView'
+  component: 'ModelUpgradeDeployment'
 },
 {
   name: 'UserDeviceManagement',
@@ -543,7 +533,7 @@ const userNav = options => {
     title: '用户设备管理',
     show: true
   },
-  component: 'RouteView'
+  component: 'UserDeviceManagement'
 },
     {
       name: 'dashboard',
