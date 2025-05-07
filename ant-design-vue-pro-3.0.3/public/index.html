@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script>
+      // 确保地图数据先加载
+      fetch('https://cdn.jsdelivr.net/npm/echarts@5.4.3/map/js/china.js')
+        .then(res => res.text())
+        .then(script => {
+          const el = document.createElement('script');
+          el.innerHTML = script;
+          document.head.appendChild(el);
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/map/js/china.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">

@@ -46,7 +46,7 @@ const constantRouterComponents = {
   Exception403: () => import(/* webpackChunkName: "fail" */ '@/views/exception/403'),
   Exception404: () => import(/* webpackChunkName: "fail" */ '@/views/exception/404'),
   Exception500: () => import(/* webpackChunkName: "fail" */ '@/views/exception/500'),
-
+  Forecasting: () => import('@/views/myview/Forecasting'),
   // account
   AccountCenter: () => import('@/views/account/center'),
   AccountSettings: () => import('@/views/account/settings/Index'),
